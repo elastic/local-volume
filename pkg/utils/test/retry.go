@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/cloud-on-k8s/local-volume/pkg/utils/retry"
+	"github.com/elastic/local-volume/pkg/utils/retry"
 	"github.com/stretchr/testify/assert"
 )
 

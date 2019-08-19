@@ -7,10 +7,10 @@ package drivers
 import (
 	"fmt"
 
-	"github.com/elastic/cloud-on-k8s/local-volume/pkg/driver/daemon/drivers/bindmount"
-	"github.com/elastic/cloud-on-k8s/local-volume/pkg/driver/daemon/drivers/lvm"
-	"github.com/elastic/cloud-on-k8s/local-volume/pkg/driver/flex"
-	"github.com/elastic/cloud-on-k8s/local-volume/pkg/driver/protocol"
+	"github.com/elastic/local-volume/pkg/driver/daemon/drivers/bindmount"
+	"github.com/elastic/local-volume/pkg/driver/daemon/drivers/lvm"
+	"github.com/elastic/local-volume/pkg/driver/flex"
+	"github.com/elastic/local-volume/pkg/driver/protocol"
 )
 
 // DriverKind represents a driver implementation name

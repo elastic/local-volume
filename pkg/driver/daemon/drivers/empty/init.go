@@ -5,7 +5,7 @@
 package empty
 
 import (
-	"github.com/elastic/cloud-on-k8s/local-volume/pkg/driver/flex"
+	"github.com/elastic/local-volume/pkg/driver/flex"
 )
 
 // Init returns a successful response when the driver is ready

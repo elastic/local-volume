@@ -9,7 +9,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/elastic/cloud-on-k8s/local-volume/pkg/driver/daemon/cmdutil"
+	"github.com/elastic/local-volume/pkg/driver/daemon/cmdutil"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -7,7 +7,7 @@ package k8s
 import (
 	"testing"
 
-	"github.com/elastic/cloud-on-k8s/local-volume/pkg/provider"
+	"github.com/elastic/local-volume/pkg/provider"
 	"github.com/stretchr/testify/assert"
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
