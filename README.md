@@ -1,5 +1,11 @@
 # Dynamic provisioner for local volumes
 
+**Warning**: this project is not actively maintained anymore. We recommend the following alternatives:
+
+* [TopoLVM](https://github.com/cybozu-go/topolvm) goes beyond what this project attempts to achieve. It dynamically provisions LVM-based volumes, implements the CSI interface, while accounting for each host total storage capacity.
+* [Sig-storage local static provisioner](https://github.com/kubernetes-sigs/sig-storage-local-static-provisioner) automatically creates static PersistentVolumes based on the devices available to each host.
+* [OpenEBS](https://github.com/openebs/openebs) is an advanced container attached storage solution for Kubernetes.
+
 **Important**: this is an experimental project, not intended for production use cases. There is no public Docker image release available.
 
 This projects allows the creation of PersistentVolumeClaim (PVC) for local volumes.
